@@ -17,10 +17,10 @@
         NOT_A_DIRECTORY: "-bash: cd: $1: Not a directory",
         IS_A_DIRECTORY: "cat: $1: Is a directory"
     }, t.EnvVariables = {
-        TERM_PROGRAM: "ReactBash.app",
-        TERM: "reactbash-256color",
-        TERM_PROGRAM_VERSION: "1.4.3",
-        TERM_SESSION_ID: "w0t0p1:37842145-87D9-4768-BEC3-3684BAF3A964",
+        TERM_PROGRAM: "MagmaCray.app",
+        TERM: "magmacray-256color",
+        TERM_PROGRAM_VERSION: "1.1.0",
+        TERM_SESSION_ID: "mc_s2871:2732917-28P7-1424-UDHE-DJ28IDH82JD",
         USER: function (e) {
             return e.settings.user.username
         },
@@ -5577,7 +5577,7 @@
                 return !t || "object" !== typeof t && "function" !== typeof t ? e : t
             }(this, (t.__proto__ || Object.getPrototypeOf(t)).call(this));
             return o.Bash = new u.default(l), o.ctrlPressed = !1, o.state = {
-                settings: {user: {username: i.split("@")[1]}},
+                settings: {user: {username: "guest"}},
                 history: n.slice(),
                 structure: Object.assign({}, r),
                 cwd: ""
